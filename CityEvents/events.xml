@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCityEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CityEvent>
+        <Header>КИНО</Header>
+        <Description>Аватар</Description>
+		<Image>Assets/pictures/show/avatar.jpg </Image>
+		<Date>06.05.2023</Date>
+        <Category>
+            <Show>true</Show>
+        </Category>
+        <Price>1000</Price>
+    </CityEvent>
+	<CityEvent>
+		<Header>ФОКУСЫ</Header>
+		<Description>Шоу фокусов</Description>
+		<Image>Assets/pictures/show/focus.jpg </Image>
+		<Date>08.12.2023</Date>
+		<Category>
+			<Show>true</Show>
+		</Category>
+		<Price>2000</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>КИНО</Header>
+		<Description>Алиса в стране чудес</Description>
+		<Image>Assets/pictures/children/alis.jpg </Image>
+		<Date>25.09.2023</Date>
+		<Category>
+			<Kid>true</Kid>
+			<Show>true</Show>
+		</Category>
+		<Price>500</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>МУЗЫКА</Header>
+		<Description>Летучий корабль</Description>
+		<Image>Assets/pictures/children/musfairy.jpg </Image>
+		<Date>25.09.2023</Date>
+		<Category>
+			<Kid>true</Kid>
+			<Culture>true</Culture>
+			<Show>true</Show>
+		</Category>
+		<Price>666</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>ЧЕМПИОНАТ</Header>
+		<Description>Чемпионат по гирям</Description>
+		<Image>Assets/pictures/sport/chempgir.jpg </Image>
+		<Date>01.09.2023</Date>
+		<Category>
+			<Sport>true</Sport>
+		</Category>
+		<Price>0</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>СПОРТ</Header>
+		<Description>Спортивное мероприятие</Description>
+		<Image>Assets/pictures/sport/sportmer.jpg </Image>
+		<Date>06.09.2023</Date>
+		<Category>
+			<Kid>true</Kid>
+			<Sport>true</Sport>
+			<Lifestyle>true</Lifestyle>
+		</Category>
+		<Price>0</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>ТЕАТР</Header>
+		<Description>Театр масок</Description>
+		<Image>Assets/pictures/culture/theatre.jpg </Image>
+		<Date>06.09.2023</Date>
+		<Category>
+			<Kid>true</Kid>
+			<Culture>true</Culture>
+			<Lifestyle>true</Lifestyle>
+		</Category>
+		<Price>0</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>КУРСЫ</Header>
+		<Description>Курс по программированию</Description>
+		<Image>Assets/pictures/education/cursprog.jpg </Image>
+		<Date>16.06.2024</Date>
+		<Category>
+			<Kid>true</Kid>
+			<Education>true</Education>
+		</Category>
+		<Price>3000</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>КУРСЫ</Header>
+		<Description>Курс по PHP</Description>
+		<Image>Assets/pictures/education/cursprog2.jpg </Image>
+		<Date>16.06.2024</Date>
+		<Category>
+			<Online>true</Online>
+			<Education>true</Education>
+		</Category>
+		<Price>5000</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>КОНЦЕРТ</Header>
+		<Description>Концерт OG BUDA</Description>
+		<Image>Assets/pictures/party/buda.png </Image>
+		<Date>16.07.2023</Date>
+		<Category>
+			<Culture>true</Culture>
+			<Party>true</Party>
+		</Category>
+		<Price>2000</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>КОНЦЕРТ</Header>
+		<Description>Концерт OXXXYMIRON</Description>
+		<Image>Assets/pictures/party/oxxxy.jpg </Image>
+		<Date>10.07.2023</Date>
+		<Category>
+			<Culture>true</Culture>
+			<Party>true</Party>
+		</Category>
+		<Price>2100</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>КОНЦЕРТ</Header>
+		<Description>Концерт OBLADAET</Description>
+		<Image>Assets/pictures/party/obla.jpg </Image>
+		<Date>10.04.2023</Date>
+		<Category>
+			<Party>true</Party>
+		</Category>
+		<Price>1700</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>ВЕБИНАР</Header>
+		<Description>Вебинар по психологии</Description>
+		<Image>Assets/pictures/online/psih.jpg </Image>
+		<Date>11.11.2022</Date>
+		<Category>
+			<Education>true</Education>
+			<Online>true</Online>
+		</Category>
+		<Price>400</Price>
+	</CityEvent>
+	<CityEvent>
+		<Header>ЭКСКУРСИЯ</Header>
+		<Description>Экскурсия по самым знаменитым уголкам Москвы</Description>
+		<Image>Assets/pictures/excursion/moscow.jpg </Image>
+		<Date>11.11.2022</Date>
+		<Category>
+			<Excursions>true</Excursions>
+		</Category>
+		<Price>3600</Price>
+	</CityEvent>
+</ArrayOfCityEvent>
+
+
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+
+    
+        
+    
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+    
+
+    
+    
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+        
+
+    
+    
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+    
+    
+        
+        
+    
+        
+    
+    
+    
+        
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+
+
+    
+        
+    
+        
+        
+        

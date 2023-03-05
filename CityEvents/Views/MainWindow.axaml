@@ -1,0 +1,107 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:CityEvents.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CityEvents.ViewModels"
+        xmlns:views="clr-namespace:CityEvents.Views"
+        mc:Ignorable="d" d:DesignWidth="640" d:DesignHeight="900"
+		Width="640" Height="1000"
+        x:Class="CityEvents.Views.MainWindow"
+        Icon="/Assets/prog-logo.ico"
+        Title="CityEvents">
+
+    <Design.DataContext>
+        <!-- This only sets the DataContext for the previewer in an IDE,
+             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
+        <vm:MainWindowViewModel/>
+    </Design.DataContext>
+    <Window.DataContext>
+        <local:MainWindowViewModel />
+    </Window.DataContext>
+
+    <TabControl>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/children.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Для детей" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems1}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/sport.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Спорт" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems2}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/culture.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Культура" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems3}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/excursion.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Экскурсии" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems4}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/lifestyle.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Образ жизни" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems5}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/party.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Вечеринки" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems6}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/education.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Образование" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems7}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/online.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Онлайн" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems8}"/>
+        </TabItem>
+        <TabItem>
+            <TabItem.Header>
+                <Grid ColumnDefinitions="0.2*, *">
+                    <Image Source="/Assets/icons/show.png" Width="24" Height="24" Margin="0,0,5,0" />
+                    <TextBlock Grid.Column="1" Text="Шоу" FontSize="20"/>
+                </Grid>
+            </TabItem.Header>
+            <views:CategoryControl Events="{Binding CItems9}"/>
+        </TabItem>
+    </TabControl>
+    
+</Window>

@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityEvents", "CityEvents\CityEvents.csproj", "{CEF9C781-C4F5-4FFD-96EF-68DB675E946C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CEF9C781-C4F5-4FFD-96EF-68DB675E946C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEF9C781-C4F5-4FFD-96EF-68DB675E946C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEF9C781-C4F5-4FFD-96EF-68DB675E946C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEF9C781-C4F5-4FFD-96EF-68DB675E946C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
